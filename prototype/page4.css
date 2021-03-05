@@ -1,0 +1,23 @@
+@media only screen and
+(min-device-width : 320px) and
+(max-device-width : 480px){
+    body{
+      font-size: .8rem;
+    }
+    h1{
+      color: #ee453b;
+      text-shadow: 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2;
+      text-align: center;
+    }
+    .border{
+      border: 2px solid #0b4da2;
+    }
+    .image1{
+      width: 100%;
+    }
+    .image2{
+      float: right;
+    }
+
+
+  }
