@@ -1,0 +1,252 @@
+@charset "UTF-8";
+@media only screen and (max-device-width: 586px) {
+  html {
+    scroll-behavior: smooth;
+    /*la page défile sans sacader*/
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://pokemongolive.com/img/global/bg.jpg");
+    margin: 0 auto;
+    height: 100vh;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Inconsolata", monospace;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    margin: 2 auto;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #ee453b;
+    text-shadow: 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2;
+    font-size: 3.4vh;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    height: auto;
+    justify-content: space-between;
+    border: 3px solid #ee463c;
+  }
+
+  img {
+    width: 65%;
+  }
+
+  button {
+    color: #fff;
+    display: inline-block;
+    background: linear-gradient(to right, #24CCAA, #A2DB95);
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    cursor: default;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 15px 50px;
+    font-weight: 500;
+  }
+
+  .accueil {
+    align-items: center;
+  }
+
+  nav {
+    padding: 15% 0 15% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav button {
+    margin-top: 3%;
+  }
+
+  .flexb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flexb img {
+    width: 70%;
+  }
+
+  .pokemon {
+    display: flex;
+  }
+  .pokemon img {
+    width: 100%;
+    margin-top: 4%;
+  }
+
+  .utilisation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .utilisation .image2 {
+    width: 50%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  #or p {
+    text-align: center;
+  }
+
+  #or button {
+    width: 40%;
+    margin: 2% auto;
+  }
+
+  textarea {
+    margin: auto;
+    width: 80%;
+    background-color: rgba(88, 89, 81, 0.65);
+  }
+}
+@media only screen and (min-device-width: 587px) {
+  html {
+    scroll-behavior: smooth;
+    /*la page défile sans sacader*/
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://pokemongolive.com/img/global/bg.jpg");
+    margin: 0 auto;
+    height: 100vh;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Inconsolata", monospace;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    margin: 2 auto;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #ee453b;
+    text-shadow: 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2;
+    font-size: 5vh;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    height: auto;
+    justify-content: space-between;
+    border: 3px solid #ee463c;
+    font-size: 3.5vh;
+  }
+
+  button {
+    color: #fff;
+    display: inline-block;
+    background: linear-gradient(to right, #24CCAA, #A2DB95);
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    cursor: default;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 15px 50px;
+    font-weight: 500;
+  }
+
+  .accueil {
+    align-items: center;
+  }
+  .accueil img {
+    margin-top: 10%;
+    width: 30%;
+  }
+
+  nav {
+    padding: 15% 0 15% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav button {
+    margin-top: 3%;
+    width: 20%;
+  }
+
+  .flexb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flexb img {
+    width: 30%;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 900px;
+  }
+
+  .pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .pokemon img {
+    width: 45%;
+    margin-top: 4%;
+  }
+  .pokemon img p {
+    margin-left: 2%;
+  }
+
+  .utilisation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .utilisation .image1, .utilisation .image2 {
+    width: 20%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  #or p {
+    text-align: center;
+  }
+
+  #or button {
+    width: 30%;
+    margin: 2% auto;
+  }
+
+  textarea {
+    margin: auto;
+    width: 80%;
+    background-color: rgba(88, 89, 81, 0.65);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,99 @@
+//pour les ecans @media only screen and (max-device-width : 586px)
+@mixin body {
+  //parallax scrolling
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://pokemongolive.com/img/global/bg.jpg");
+  margin: 0 auto;
+  height: 100vh;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+//mixin pour les titres de chaques section.
+@mixin h1style {
+  text-transform: uppercase;
+  margin: 2 auto;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #ee453b;
+  text-shadow: 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2;
+}
+@mixin buttonStyle {
+  color: #fff;
+  display: inline-block;
+  background: linear-gradient(to right, #24CCAA, #A2DB95);
+  border-radius: 50px;
+  border: 0;
+  outline: 0;
+  cursor: default;
+  font-size: 16px;
+  line-height: 23px;
+  padding: 15px 50px;
+//joue sur l'épaisseur de la police.
+  font-weight: 500;
+  }
+@mixin section {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  height: auto;
+  justify-content: space-between;
+  border: 3px solid #ee463c;
+}
+@mixin textarea {
+  margin: auto;
+  width: 80%;
+  //fond en transparence
+  background-color: rgba(#585951, 0.65);
+}
+//pour les écrans @media only screen and
+//(min-device-width : 587px)
+// @mixin body {
+//   //parallax scrolling
+//   display: flex;
+//   flex-direction: column;
+//   background-image: url("https://pokemongolive.com/img/global/bg.jpg");
+//   margin: 0 auto;
+//   height: 100vh;
+//   min-height: 100vh;
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//
+// }
+@mixin h1styleBis {
+  text-transform: uppercase;
+  margin: 2 auto;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #ee453b;
+  text-shadow: 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2, 0 0 2px #0b4da2;
+}
+// @mixin buttonStyle {
+//   color: #fff;
+//   display: inline-block;
+//   background: linear-gradient(to right, #24CCAA, #A2DB95);
+//   border-radius: 50px;
+//   border: 0;
+//   outline: 0;
+//   cursor: default;
+//   font-size: 16px;
+//   line-height: 23px;
+//   padding: 15px 50px;
+//   font-weight: 500;
+//   }
+@mixin sectionBis{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  height: auto;
+  justify-content: space-between;
+  border: 3px solid #ee463c;
+  font-size: 3.5vh;
+}
+//

@@ -1,0 +1,169 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+@media only screen and
+(max-device-width : 586px)
+{
+  html {
+    scroll-behavior: smooth;/*la page défile sans sacader*/
+  }
+  body{
+    @include body;
+    font-family: $myfontStyle;
+  }
+  h1{
+    @include h1style;
+    font-size: $myh1Size;
+  }
+  section{
+    @include section;
+  }
+  img{
+    width: 65%;
+  }
+  button{
+    @include buttonStyle;
+  }
+  .accueil{
+    align-items: center;
+  }
+  nav{
+    padding: 15% 0 15% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button{
+      margin-top:3%;
+    }
+  }
+  .flexb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   img{
+      width: 70%;
+    }
+  }
+  .pokemon{
+    display: flex;
+    // flex-wrap: wrap;
+    // flex-direction: column;
+      img{
+      width: 100%;
+      margin-top: 4%;
+    }
+  }
+  .utilisation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .image2{
+      width:50%;
+    }
+  }
+  h2{
+    text-align: center;
+  }
+  #or p{
+  text-align: center;
+  }
+  #or  button{
+    width: 40%;
+    margin:2% auto;
+  }
+  textarea{
+    @include textarea;
+  }
+}
+//pour les écrans de 587px minimum
+@media only screen and
+(min-device-width : 587px)
+{
+  html {
+    scroll-behavior: smooth;/*la page défile sans sacader*/
+  }
+  body{
+    @include body;
+    font-family: $myfontStyle;
+  }
+  h1{
+    @include h1style;
+    font-size: $myh1sizeBis;
+  }
+  section{
+    @include sectionBis;
+  }
+  // img{
+  //   width: 65%;
+  // }
+  button{
+    @include buttonStyle;
+  }
+  .accueil{
+    align-items: center;
+    img{
+      margin-top: 10%;
+      width: 30%;
+    }
+  }
+  nav{
+    padding: 15% 0 15% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    button{
+      margin-top:3%;
+      width: 20%;
+
+    }
+  }
+  .flexb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   img{
+      width: 30%;
+    }
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 900px;
+  }
+  .pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+      img{
+      width: 45%;
+      margin-top: 4%;
+      p{
+        margin-left: 2%;
+      }
+    }
+  }
+  .utilisation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .image1, .image2{
+      width:20%;
+    }
+  }
+  h2{
+    text-align: center;
+  }
+  #or p{
+  text-align: center;
+  }
+  #or  button{
+    width: 30%;
+    margin:2% auto;
+  }
+  textarea{
+    @include textarea;
+  }
+}
